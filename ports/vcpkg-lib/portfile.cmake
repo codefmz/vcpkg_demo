@@ -2,9 +2,9 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO vcpkg_demo
-    REF "${VERSION}"
-    SHA512 0 # This is a temporary value. We will modify this value in the next section.
+    REPO codefmz/vcpkg_demo
+    REF "v${VERSION}"
+    SHA512 848ca4cece993ae7dcfd176d24a8345fbeb02239aad0dcfbb194b75903fcdbe8ccee8f0e51f4dcae44430c32f9a60f76ac306a115d2553c6923898f01400b3ee
     HEAD_REF master
 )
 

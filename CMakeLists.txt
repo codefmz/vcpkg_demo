@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.10)
 
 project(vcpkg_sample_lib)
 
+include(GNUInstallDirs)
+
 find_package(fmt CONFIG REQUIRED)
 
 add_library(vcpkg_sample_lib STATIC vcpkgsample.cpp)

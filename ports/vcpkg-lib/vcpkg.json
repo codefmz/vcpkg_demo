@@ -1,0 +1,18 @@
+{
+  "name": "vcpkg-lib",
+  "version": "1.0.0",
+  "description": "A sample C++ library packaged as a local vcpkg overlay port.",
+  "homepage": "https://github.com/codefmz/vcpkg_demo",
+  "license": "MIT",
+  "dependencies": [
+    "fmt",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
